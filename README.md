@@ -41,11 +41,11 @@ This is a CRUD application with authentication for managing a budget planner. Th
 
 ## API Endpoints
 
-- `POST /api/auth/signup` - Register a new user
-- `POST /api/auth/login` - Login a user
-- `POST /api/auth/logout` - Logout a user
-- `GET /api/budget` - Get all budget items
-- `POST /api/budget` - Create a new budget item
+- `POST /register` - Register a new user
+- `POST /` - Login a user
+- `POST /logout` - Logout a user
+- `GET /transactions` - Get all budget items
+- `POST /transactions` - Create a new budget item
 - `PUT /api/budget/:id` - Update a budget item
 - `DELETE /api/budget/:id` - Delete a budget item
 
